@@ -32,7 +32,6 @@ I build kernel modules, reverse-engineer undocumented hardware, and write zero-o
 | **HP Omen HyperX Subsystem** | Custom Linux platform driver with ACPI power hooks, WMI call integration, sysfs controls, and a Rust CLI. *Chose a kernel platform driver over a userspace daemon to bind directly into ACPI sleep paths (`omen_rgb_resume`), restoring hardware lighting states on system wake.* | **800 MB suite → < 5 MB resident** | Linux Kernel C, DKMS, ACPI/WMI, Rust |
 | **JioFi 4 (JMR1140) Modem Revival** | Reverse-engineered Qualcomm MDM9607 cellular modem platform. *Implemented `lk2nd` as a second-stage bootloader to chainload standard Linux kernels without modifying vendor primary partition tables.* | **Boots proprietary hardware into clean Linux userspace** | Qualcomm MDM9607, C, ARM, Embedded Linux, lk2nd |
 | [**RAM-TUI**](https://github.com/BlackFeather-git/ram-tui) | Zero-overhead terminal memory monitor and process inspector built for lightweight Wayland/Hyprland workflows. Direct `/proc` parser avoiding high-level overhead. | **< 2 MB resident memory, zero external dependencies** | Rust, Linux procfs, TUI |
-| [**CareerPath India**](https://github.com/BlackFeather-git/careerpath) | Contextual regional career-mapping platform and guidance engine. Asynchronous API pipelines handling data ingestion and classification models. | **Sub-50ms API response latency on asynchronous pipelines** | Python, FastAPI, Machine Learning, Docker |
 
 ---
 
@@ -42,7 +41,6 @@ I build kernel modules, reverse-engineer undocumented hardware, and write zero-o
 | :-- | :-- | :-- |
 | **Kernel & Low-Level** | Linux Kernel Modules (C), DKMS, ACPI, WMI, Embedded Linux (ARM/Qualcomm), Rust | HP Omen platform driver, JioFi 4 modem kernel, RAM-TUI memory monitor |
 | **Protocols & Hardware** | Linux HID, BlueZ / DBus, Wireshark, Serial/UART, Unix Domain Sockets | Peripheral lighting controllers, Qualcomm serial bring-up, IPC subsystems |
-| **Backend & Logic** | Python, FastAPI, Bash, Systemd Services, Asynchronous Tasks | CareerPath India guidance platform, system automation, background daemons |
 | **Native UI & Motion** | Kotlin, Jetpack Compose, Material Design 3 Architecture, Micro-interactions | Android native client prototypes, fluid spring-motion interaction layers |
 | **Environment & Tooling** | Arch Linux, CachyOS, Hyprland (Wayland), Neovim, Git, Clang/LLVM | Daily development workstation, bespoke compositor configuration, build systems |
 
