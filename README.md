@@ -2,7 +2,7 @@
 
 <p align="center">
   <a href="mailto:amish.syam@gmail.com"><img src="https://img.shields.io/badge/contact-amish.syam%40gmail.com-007ec6?style=flat-square&logo=gmail&logoColor=white" alt="Email" /></a>
-  <a href="mailto:blackfeatheractual@proton.me"><img src="https://img.shields.io/badge/encrypted-blackfeatheractual%40proton.me-6d4aff?style=flat-square&logo=protonmail&logoColor=white" alt="Proton" /></a>
+  <a href="mailto:blackfeatheractual@proton.me"><img src="https://img.shields.io/badge/urgent-blackfeatheractual%40proton.me-6d4aff?style=flat-square&logo=protonmail&logoColor=white" alt="Proton" /></a>
   <a href="https://github.com/BlackFeather-git"><img src="https://img.shields.io/badge/system-Arch%20%7C%20Hyprland-1793d1?style=flat-square&logo=archlinux&logoColor=white" alt="Arch Linux" /></a>
   <a href="https://github.com/BlackFeather-git?tab=followers"><img src="https://img.shields.io/github/followers/BlackFeather-git?style=flat-square&logo=github&label=followers&color=007ec6" alt="Followers" /></a>
 </p>
