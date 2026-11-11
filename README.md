@@ -1,52 +1,63 @@
 <div align="center">
 
 # Amish
-### `@BlackFeather-git`
+**BlackFeather**
 
-**Designer with a terminal. Building zero-bloat native software, exploring hardware protocols, and obsessed with expressive ergonomics.**
+Designer and Linux systems enthusiast focused on native software, hardware protocol inspection, and expressive interface ergonomics.
 
-<br />
+<br>
 
-[![Work Email](https://img.shields.io/badge/Contact-amish.syam%40gmail.com-ea4335?style=flat-square&logo=gmail&logoColor=white)](mailto:amish.syam@gmail.com)
-[![Proton](https://img.shields.io/badge/PGP%20%2F%20Secure-blackfeatheractual%40proton.me-6d4aff?style=flat-square&logo=protonmail&logoColor=white)](mailto:blackfeatheractual@proton.me)
-[![OS](https://img.shields.io/badge/Daily%20Driver-Arch%20%2F%20CachyOS%20•%20Hyprland-1793d1?style=flat-square&logo=archlinux&logoColor=white)](https://github.com/BlackFeather-git)
+<p align="center">
+  <a href="mailto:amish.syam@gmail.com">
+    <img src="https://img.shields.io/badge/Contact-amish.syam%40gmail.com-18181b?style=flat-square&logo=gmail&logoColor=ea4335" alt="Email" />
+  </a>
+  <a href="mailto:blackfeatheractual@proton.me">
+    <img src="https://img.shields.io/badge/Encrypted-blackfeatheractual%40proton.me-18181b?style=flat-square&logo=protonmail&logoColor=6d4aff" alt="Proton" />
+  </a>
+  <img src="https://img.shields.io/badge/System-Arch%20Linux%20%7C%20Hyprland-18181b?style=flat-square&logo=archlinux&logoColor=1793d1" alt="System" />
+</p>
 
 ---
 
 </div>
 
-### ✦ Philosophy & Mindset
+## Overview
 
-I build at the intersection of **tactile visual design** and **low-level systems**. 
+I build native software and analyze hardware protocols. My background combines advertising and graphic design with computer applications, which informs how I approach development: tools should be visually refined, responsive, and light on system resources.
 
-- 🚫 **Strictly Anti-Electron:** Software should be fast, lightweight, and respect system resources. No 500MB memory footprints for simple tools.
-- 🎨 **Expressive Material 3:** Background in Advertising & Graphic Design. Focused on fluid motion, purposeful typography, and dynamic tokenized color systems over cookie-cutter web templates.
-- ⚡ **Rapid & Resilient:** Python for high-velocity tooling, DBus scripting, and automation; Rust for permanent, resilient native binaries.
-- 🔬 **Hardware & Protocol Curious:** Fascinated by undocumented protocols, reverse-engineering proprietary peripherals, and pulling telemetry out of hardware that vendors leave broken or bloated.
+I daily-drive Arch Linux (CachyOS) on Hyprland, avoid Electron in favor of native platforms, and build with Material Design 3 tokens.
 
 ---
 
-### ✦ What I'm Building & Exploring
+## Technical Focus
 
-- 📱 **Fluid Mobile & Native UI:** Crafting design-first applications with Jetpack Compose & Flutter, emphasizing tactile micro-interactions and zero tracking.
-- 🕹️ **Hardware Reverse Engineering:** Analyzing proprietary HID packets, BLE GATT services, and undocumented firmware across automotive clusters and peripherals.
-- ⚙️ **Linux Environment Architecture:** Tailored desktop environments built on Wayland, Hyprland, and CachyOS.
+- **Native Interfaces**: Building applications using Jetpack Compose and Flutter with focus on fast launch times, fluid animations, and zero telemetry.
+- **Systems and Automation**: Writing Python for rapid tool development, DBus IPC communication, and local workflow automation. Exploring Rust for compiled native utilities.
+- **Hardware Protocols**: Reverse engineering proprietary BLE GATT services, Linux HID packet structures, and embedded microcontroller firmware.
+- **Interface Design**: Implementing Material Design 3 specifications, custom typography hierarchies, and interaction patterns.
 
 ---
 
-### ✦ The Toolkit
+## Tooling
 
-```text
-  Systems & Core     →  Arch Linux, CachyOS, Hyprland (Wayland), Bash, Git
-  Languages          →  Python, Rust (Systems), Kotlin / Jetpack Compose, SQL (MySQL)
-  Hardware & Re      →  BLE GATT, BlueZ / DBus, Linux HID, Wireshark
-  Design & Motion    →  Material Design 3, Graphic & Layout Design, Typography
+<p align="center">
+  <img src="https://skillicons.dev/icons?i=arch,linux,bash,git,python,rust,kotlin,mysql,figma&theme=dark" alt="Tooling Stack" />
+</p>
+
+```
+OS / Window Manager : Arch Linux, CachyOS, Hyprland (Wayland)
+Scripting & Data    : Python, Bash, SQL (MySQL)
+Systems & Native    : Rust, Kotlin, Jetpack Compose
+Analysis & Tools    : BlueZ / DBus, BLE GATT, Wireshark, Linux HID
+Design & Ergonomics : Material Design 3, Figma, Vector Design
 ```
 
 ---
 
 <div align="center">
 
-<sub>*"Code is just the execution layer. Taste, architecture, and ergonomics dictate the product."*</sub>
+```
+Taste dictates the interface. Architecture dictates the longevity.
+```
 
 </div>
