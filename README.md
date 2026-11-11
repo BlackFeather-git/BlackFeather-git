@@ -1,70 +1,45 @@
-<img src="assets/header.gif" width="100%" alt="Amish — BlackFeather Profile Header" />
+<img src="assets/banner.svg" width="100%" alt="Amish — Systems Architecture & Native Interface Design" />
 
 <p align="center">
-  <a href="mailto:amish.syam@gmail.com"><img src="https://img.shields.io/badge/contact-amish.syam%40gmail.com-007ec6?style=flat-square&logo=gmail&logoColor=white" alt="Email" /></a>
-  <a href="mailto:blackfeatheractual@proton.me"><img src="https://img.shields.io/badge/urgent-blackfeatheractual%40proton.me-6d4aff?style=flat-square&logo=protonmail&logoColor=white" alt="Proton" /></a>
-  <a href="https://github.com/BlackFeather-git"><img src="https://img.shields.io/badge/system-Arch%20%7C%20Hyprland-1793d1?style=flat-square&logo=archlinux&logoColor=white" alt="Arch Linux" /></a>
-  <a href="https://github.com/BlackFeather-git?tab=followers"><img src="https://img.shields.io/github/followers/BlackFeather-git?style=flat-square&logo=github&label=followers&color=007ec6" alt="Followers" /></a>
+  <a href="mailto:amish.syam@gmail.com"><img src="https://img.shields.io/badge/contact-amish.syam%40gmail.com-0b0f17?style=flat-square&logo=gmail&logoColor=ea4335" alt="Email" /></a>
+  <a href="mailto:blackfeatheractual@proton.me"><img src="https://img.shields.io/badge/urgent-blackfeatheractual%40proton.me-0b0f17?style=flat-square&logo=protonmail&logoColor=6d4aff" alt="Proton" /></a>
+  <a href="https://github.com/BlackFeather-git"><img src="https://img.shields.io/badge/daily%20driver-Arch%20%7C%20Hyprland-0b0f17?style=flat-square&logo=archlinux&logoColor=38bdf8" alt="Arch Linux" /></a>
+  <a href="https://github.com/BlackFeather-git?tab=followers"><img src="https://img.shields.io/github/followers/BlackFeather-git?style=flat-square&logo=github&label=followers&color=0b0f17" alt="Followers" /></a>
 </p>
-
-<table>
-<tr>
-<td width="60%" valign="top">
 
 ### About
 
-I work at the boundary between **graphic-design ergonomics** and **low-level systems engineering**. My background pairs Advertising & Graphic Design with Computer Applications to build interfaces that feel deliberate and software that respects the machine it runs on.
+I work at the boundary between **visual interface ergonomics** and **low-level systems engineering**. My background pairs Advertising & Graphic Design with Computer Applications to build software that feels deliberate and respects the machine it runs on.
 
-Every project starts with a written contract — memory budgets, protocol decoders, interaction curves, and threat models — before a single line of code exists. I own code review, hardware testing, and hardening directly.
-
-- **Operating rule:** Anti-Electron, anti-bloat. If it does not start instantly and operate under a strict memory ceiling, it does not ship.
-- **Visual rule:** Material Design 3 with tokenized color, spring-based motion, and purposeful typography — never decorative fluff for its own sake.
-- **Systems rule:** Reverse-engineer what is undocumented. ACPI, WMI, Linux HID, and vendor firmware are all fair game.
-
-</td>
-<td width="40%" valign="top">
-
-### Dossier & Contact
-
-| Channel | Address |
-| :-- | :-- |
-| Work | [amish.syam@gmail.com](mailto:amish.syam@gmail.com) |
-| Urgent | [blackfeatheractual@proton.me](mailto:blackfeatheractual@proton.me) |
-
-<br />
-
-**Daily Driver:** Arch Linux / CachyOS · Hyprland (Wayland) · Neovim  
-**Focus:** Kernel modules · embedded Linux · terminal tooling · Material 3
-
-</td>
-</tr>
-</table>
+- **Anti-bloat architecture:** Strictly anti-Electron. Software should launch instantaneously, operate with minimal memory overhead, and respect hardware constraints.
+- **Design-first ergonomics:** Applying graphic design foundations to build purposeful Material Design 3 interfaces with calibrated motion and deliberate typographic hierarchy rather than off-the-shelf templates.
+- **Systems control:** Linux kernel modules, ACPI/WMI platform drivers, embedded Qualcomm modem infrastructure, and zero-overhead native utilities.
 
 ---
 
-## Featured Projects
+### Featured Systems
 
-| Project | Summary | Stack |
+| Project | Description | Stack |
 | :-- | :-- | :-- |
-| **HP Omen HyperX Subsystem** | Linux kernel platform driver with ACPI power management hooks, WMI call integration, sysfs controls, and a high-performance Rust CLI layer. Replaces an 800 MB vendor background suite with a lean native module. | Linux Kernel C, DKMS, ACPI/WMI, Rust |
-| **JioFi 4 (JMR1140) Revival** | Reverse-engineering Qualcomm MDM9607 modem architecture. Ports `lk2nd` secondary bootloader, patches the Linux kernel, and brings up Realtek Wi-Fi on proprietary mobile-router hardware. | Qualcomm MDM9607, C, ARM, Embedded Linux, lk2nd |
-| [**RAM-TUI**](https://github.com/BlackFeather-git/ram-tui) | Zero-overhead terminal memory monitor and process inspector built for lightweight Wayland/Hyprland workflows. | Rust, Linux procfs, TUI |
+| **HP Omen HyperX Subsystem** | Custom Linux platform driver with ACPI power management hooks, WMI call integration, sysfs controls, and a high-performance Rust CLI layer. Replaces 800MB vendor background services with a lean native module. | Linux Kernel C, DKMS, ACPI/WMI, Rust |
+| **JioFi 4 (JMR1140) Modem Revival** | Custom mobile router firmware environment. Ports `lk2nd` secondary bootloader, patches the Linux kernel, and brings up Realtek Wi-Fi on Qualcomm MDM9607 hardware. | Qualcomm MDM9607, C, ARM, Embedded Linux, lk2nd |
+| [**RAM-TUI**](https://github.com/BlackFeather-git/ram-tui) | Zero-overhead terminal memory monitor and process inspector built for lightweight Wayland and Hyprland workflows. | Rust, Linux procfs, TUI |
 
 ---
 
-## Tech Stack
+### Tooling & Stack
 
-| Area | Tools & Technologies |
-| :-- | :-- |
-| Systems & Kernel | Linux Kernel Modules (C), DKMS, ACPI, WMI, Embedded Linux (ARM/Qualcomm), Rust |
-| Hardware & Protocols | Linux HID, BlueZ / DBus, Wireshark, Serial/UART |
-| Logic & Automation | Python, Bash, IPC Scripting, Systemd Services |
-| Native UI & Motion | Kotlin, Jetpack Compose, Material Design 3 Architecture, Micro-interactions |
-| Environment & Core | Arch Linux, CachyOS, Hyprland (Wayland), Neovim, Git |
+```text
+Kernel & Systems  : Linux Kernel Modules (C), DKMS, ACPI, WMI, Embedded Linux (ARM), Rust
+Protocols & IPC   : Linux HID, BlueZ / DBus, Wireshark, Serial/UART, Unix Domain Sockets
+Native Interfaces : Kotlin, Jetpack Compose, Material Design 3 Architecture, Micro-interactions
+Scripting & Tools : Python, Bash, Systemd Services, Asynchronous Tasks
+Environment       : Arch Linux, CachyOS, Hyprland (Wayland), Neovim, Git
+```
 
 ---
 
-## Activity & Metrics
+### Activity & Metrics
 
 <p align="center">
   <img src="assets/stats.svg" width="49%" alt="GitHub stats" />
@@ -74,4 +49,6 @@ Every project starts with a written contract — memory budgets, protocol decode
   <img src="assets/activity.svg" width="100%" alt="Contribution activity" />
 </p>
 
-<sub>Cards are generated by <code>scripts/generate-stats.mjs</code> and refreshed daily via GitHub Actions.</sub>
+<div align="center">
+  <sub>Cards generated locally via <code>scripts/generate-stats.mjs</code> and updated daily via GitHub Actions.</sub>
+</div>
