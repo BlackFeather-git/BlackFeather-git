@@ -1,4 +1,4 @@
-<img src="assets/header.svg" width="100%" alt="Amish — BlackFeather Profile Header" />
+<img src="assets/header.gif" width="100%" alt="Amish — BlackFeather Profile Header" />
 
 <p align="center">
   <a href="mailto:amish.syam@gmail.com"><img src="https://img.shields.io/badge/contact-amish.syam%40gmail.com-007ec6?style=flat-square&logo=gmail&logoColor=white" alt="Email" /></a>
@@ -49,7 +49,6 @@ Every project starts with a written contract — memory budgets, protocol decode
 | **HP Omen HyperX Subsystem** | Linux kernel platform driver with ACPI power management hooks, WMI call integration, sysfs controls, and a high-performance Rust CLI layer. Replaces an 800 MB vendor background suite with a lean native module. | Linux Kernel C, DKMS, ACPI/WMI, Rust |
 | **JioFi 4 (JMR1140) Revival** | Reverse-engineering Qualcomm MDM9607 modem architecture. Ports `lk2nd` secondary bootloader, patches the Linux kernel, and brings up Realtek Wi-Fi on proprietary mobile-router hardware. | Qualcomm MDM9607, C, ARM, Embedded Linux, lk2nd |
 | [**RAM-TUI**](https://github.com/BlackFeather-git/ram-tui) | Zero-overhead terminal memory monitor and process inspector built for lightweight Wayland/Hyprland workflows. | Rust, Linux procfs, TUI |
-| [**CareerPath India**](https://github.com/BlackFeather-git/careerpath) | AI-driven guidance platform providing regional and contextual career mapping. | Python, FastAPI, Machine Learning |
 
 ---
 
