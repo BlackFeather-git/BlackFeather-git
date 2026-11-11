@@ -30,7 +30,7 @@ I build kernel modules, reverse-engineer undocumented hardware, and write zero-o
 | Project | Summary & Architecture Trade-off | Constraint / Metric | Stack |
 | :-- | :-- | :-- | :-- |
 | **HP Omen HyperX Subsystem** | Custom Linux platform driver with ACPI power hooks, WMI call integration, sysfs controls, and a Rust CLI. *Chose a kernel platform driver over a userspace daemon to bind directly into ACPI sleep paths (`omen_rgb_resume`), restoring hardware lighting states on system wake.* | **800 MB suite → < 5 MB resident** | Linux Kernel C, DKMS, ACPI/WMI, Rust |
-| **JioFi 4 (JMR1140) Modem Revival** | Reverse-engineered Qualcomm MDM9607 cellular modem platform. *Implemented `lk2nd` as a second-stage bootloader to chainload standard Linux kernels without modifying vendor primary partition tables.* | **Boots proprietary hardware into clean Linux userspace** | Qualcomm MDM9607, C, ARM, Embedded Linux, lk2nd |
+| [**JioFi 4 (JMR1140) Modem Revival**](https://github.com/BlackFeather-git/aether-link) | Reverse-engineered Qualcomm MDM9607 cellular modem platform. *Implemented `lk2nd` as a second-stage bootloader to chainload standard Linux kernels without modifying vendor primary partition tables.* | **Boots proprietary hardware into clean Linux userspace** | Qualcomm MDM9607, C, ARM, Embedded Linux, lk2nd |
 | [**RAM-TUI**](https://github.com/BlackFeather-git/ram-tui) | Zero-overhead terminal memory monitor and process inspector built for lightweight Wayland/Hyprland workflows. Direct `/proc` parser avoiding high-level overhead. | **< 2 MB resident memory, zero external dependencies** | Rust, Linux procfs, TUI |
 
 ---
