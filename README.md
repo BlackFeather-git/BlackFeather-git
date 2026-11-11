@@ -1,4 +1,4 @@
-<img src="assets/header.svg" width="100%" alt="Amish - BlackFeather Profile Header" />
+<img src="assets/header.svg" width="100%" alt="Amish — BlackFeather Profile Header" />
 
 <p align="center">
   <a href="mailto:amish.syam@gmail.com"><img src="https://img.shields.io/badge/contact-amish.syam%40gmail.com-007ec6?style=flat-square&logo=gmail&logoColor=white" alt="Email" /></a>
@@ -7,44 +7,72 @@
   <a href="https://github.com/BlackFeather-git?tab=followers"><img src="https://img.shields.io/github/followers/BlackFeather-git?style=flat-square&logo=github&label=followers&color=007ec6" alt="Followers" /></a>
 </p>
 
-## About
+<table>
+<tr>
+<td width="60%" valign="top">
 
-I build at the intersection of **tactile visual ergonomics** and **low-level systems engineering**. My background bridges Advertising & Graphic Design with Computer Applications.
+### About
 
-I design and build spec-first with AI coding workflows: I architect system contracts, memory budgets, protocol decoders, and interaction curves before implementation begins. I personally own code review, hardware testing, protocol verification, and hardening.
+I work at the boundary between **graphic-design ergonomics** and **low-level systems engineering**. My background pairs Advertising & Graphic Design with Computer Applications to build interfaces that feel deliberate and software that respects the machine it runs on.
 
-- **Operating Philosophy:** Strictly anti-Electron and anti-bloat. Applications must start instantly, consume minimal memory, and respect user hardware.
-- **Visual Stance:** Expressive Material Design 3. Moving past repetitive glassmorphism into tokenized color systems, fluid spring physics, and purpose-driven typography.
-- **Hardware & Protocols:** Reverse engineering undocumented embedded controllers, proprietary HID devices, and BLE GATT telemetry.
+Every project starts with a written contract — memory budgets, protocol decoders, interaction curves, and threat models — before a single line of code exists. I own code review, hardware testing, and hardening directly.
 
-## Featured projects
+- **Operating rule:** Anti-Electron, anti-bloat. If it does not start instantly and operate under a strict memory ceiling, it does not ship.
+- **Visual rule:** Material Design 3 with tokenized color, spring-based motion, and purposeful typography — never decorative fluff for its own sake.
+- **Systems rule:** Reverse-engineer what is undocumented. ACPI, WMI, Linux HID, and vendor firmware are all fair game.
+
+</td>
+<td width="40%" valign="top">
+
+### Dossier & Contact
+
+| Channel | Address |
+| :-- | :-- |
+| Work | [amish.syam@gmail.com](mailto:amish.syam@gmail.com) |
+| Urgent | [blackfeatheractual@proton.me](mailto:blackfeatheractual@proton.me) |
+
+<br />
+
+**Daily Driver:** Arch Linux / CachyOS · Hyprland (Wayland) · Neovim  
+**Focus:** Kernel modules · embedded Linux · terminal tooling · Material 3
+
+</td>
+</tr>
+</table>
+
+---
+
+## Featured Projects
 
 | Project | Summary | Stack |
 | :-- | :-- | :-- |
-| **HP Omen HyperX Subsystem** | Custom Linux platform driver with ACPI power management hooks, WMI call integration, sysfs controls, and a standalone Rust CLI. Replaces bloated 800MB vendor background suites with a lightweight native module. | Linux Kernel C, DKMS, ACPI/WMI, Rust |
-| **JioFi 4 (JMR1140) Modem Revival** | Reverse engineering Qualcomm MDM9607 cellular modem architecture. Porting the `lk2nd` secondary bootloader, custom Linux kernel patches, and Realtek Wi-Fi drivers to unlock proprietary mobile router hardware. | Qualcomm MDM9607, C, ARM, Embedded Linux, lk2nd |
-| [**TVS SmartXonnect BLE Telemetry**](https://github.com/aiyu-ayaan/RideLink/issues/4) | Reverse engineered automotive cluster BLE GATT protocol for TVS NTorq. Diagnosed cyclic status packet collisions, LCD segment blanking quirks, and turn-by-turn navigation data pipes over BlueZ DBus. | Kotlin, Jetpack Compose, Python, BlueZ DBus, BLE GATT |
-| [**RAM-TUI**](https://github.com/BlackFeather-git/ram-tui) | Fast, zero-overhead terminal memory monitor and process inspector designed for lightweight Wayland and Hyprland workflows. | Rust, Linux procfs, TUI |
+| **HP Omen HyperX Subsystem** | Linux kernel platform driver with ACPI power management hooks, WMI call integration, sysfs controls, and a high-performance Rust CLI layer. Replaces an 800 MB vendor background suite with a lean native module. | Linux Kernel C, DKMS, ACPI/WMI, Rust |
+| **JioFi 4 (JMR1140) Revival** | Reverse-engineering Qualcomm MDM9607 modem architecture. Ports `lk2nd` secondary bootloader, patches the Linux kernel, and brings up Realtek Wi-Fi on proprietary mobile-router hardware. | Qualcomm MDM9607, C, ARM, Embedded Linux, lk2nd |
+| [**RAM-TUI**](https://github.com/BlackFeather-git/ram-tui) | Zero-overhead terminal memory monitor and process inspector built for lightweight Wayland/Hyprland workflows. | Rust, Linux procfs, TUI |
 | [**CareerPath India**](https://github.com/BlackFeather-git/careerpath) | AI-driven guidance platform providing regional and contextual career mapping. | Python, FastAPI, Machine Learning |
 
-## Tech stack
+---
+
+## Tech Stack
 
 | Area | Tools & Technologies |
 | :-- | :-- |
 | Systems & Kernel | Linux Kernel Modules (C), DKMS, ACPI, WMI, Embedded Linux (ARM/Qualcomm), Rust |
-| Protocols & Hardware | BLE GATT, BlueZ / DBus, Linux HID, Wireshark, Serial/UART |
-| Logic & Automation | Python, Bash, IPC Scripting, Systemd Services, Asynchronous Tasks |
+| Hardware & Protocols | Linux HID, BlueZ / DBus, Wireshark, Serial/UART |
+| Logic & Automation | Python, Bash, IPC Scripting, Systemd Services |
 | Native UI & Motion | Kotlin, Jetpack Compose, Material Design 3 Architecture, Micro-interactions |
 | Environment & Core | Arch Linux, CachyOS, Hyprland (Wayland), Neovim, Git |
 
-## GitHub activity
+---
+
+## Activity & Metrics
 
 <p align="center">
   <img src="assets/stats.svg" width="49%" alt="GitHub stats" />
-  <img src="assets/languages.svg" width="49%" alt="Most used languages" />
+  <img src="assets/languages.svg" width="49%" alt="Language distribution" />
 </p>
 <p align="center">
-  <img src="assets/activity.svg" width="100%" alt="Contributions over the past year" />
+  <img src="assets/activity.svg" width="100%" alt="Contribution activity" />
 </p>
 
-<sub>Stat cards are generated by <code>scripts/generate-stats.mjs</code> and refreshed daily via GitHub Actions.</sub>
+<sub>Cards are generated by <code>scripts/generate-stats.mjs</code> and refreshed daily via GitHub Actions.</sub>
