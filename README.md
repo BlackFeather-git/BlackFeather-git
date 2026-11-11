@@ -1,63 +1,50 @@
-<div align="center">
-
-# Amish
-**BlackFeather**
-
-Designer and Linux systems enthusiast focused on native software, hardware protocol inspection, and expressive interface ergonomics.
-
-<br>
+<img src="assets/header.svg" width="100%" alt="Amish - BlackFeather Profile Header" />
 
 <p align="center">
-  <a href="mailto:amish.syam@gmail.com">
-    <img src="https://img.shields.io/badge/Contact-amish.syam%40gmail.com-18181b?style=flat-square&logo=gmail&logoColor=ea4335" alt="Email" />
-  </a>
-  <a href="mailto:blackfeatheractual@proton.me">
-    <img src="https://img.shields.io/badge/Encrypted-blackfeatheractual%40proton.me-18181b?style=flat-square&logo=protonmail&logoColor=6d4aff" alt="Proton" />
-  </a>
-  <img src="https://img.shields.io/badge/System-Arch%20Linux%20%7C%20Hyprland-18181b?style=flat-square&logo=archlinux&logoColor=1793d1" alt="System" />
+  <a href="mailto:amish.syam@gmail.com"><img src="https://img.shields.io/badge/contact-amish.syam%40gmail.com-007ec6?style=flat-square&logo=gmail&logoColor=white" alt="Email" /></a>
+  <a href="mailto:blackfeatheractual@proton.me"><img src="https://img.shields.io/badge/encrypted-blackfeatheractual%40proton.me-6d4aff?style=flat-square&logo=protonmail&logoColor=white" alt="Proton" /></a>
+  <a href="https://github.com/BlackFeather-git"><img src="https://img.shields.io/badge/system-Arch%20%7C%20Hyprland-1793d1?style=flat-square&logo=archlinux&logoColor=white" alt="Arch Linux" /></a>
+  <a href="https://github.com/BlackFeather-git?tab=followers"><img src="https://img.shields.io/github/followers/BlackFeather-git?style=flat-square&logo=github&label=followers&color=007ec6" alt="Followers" /></a>
 </p>
 
----
+## About
 
-</div>
+I build at the intersection of **tactile visual ergonomics** and **low-level systems engineering**. My background bridges Advertising & Graphic Design with Computer Applications.
 
-## Overview
+I design and build spec-first with AI coding workflows: I architect system contracts, memory budgets, protocol decoders, and interaction curves before implementation begins. I personally own code review, hardware testing, protocol verification, and hardening.
 
-I build native software and analyze hardware protocols. My background combines advertising and graphic design with computer applications, which informs how I approach development: tools should be visually refined, responsive, and light on system resources.
+- **Operating Philosophy:** Strictly anti-Electron and anti-bloat. Applications must start instantly, consume minimal memory, and respect user hardware.
+- **Visual Stance:** Expressive Material Design 3. Moving past repetitive glassmorphism into tokenized color systems, fluid spring physics, and purpose-driven typography.
+- **Hardware & Protocols:** Reverse engineering undocumented embedded controllers, proprietary HID devices, and BLE GATT telemetry.
 
-I daily-drive Arch Linux (CachyOS) on Hyprland, avoid Electron in favor of native platforms, and build with Material Design 3 tokens.
+## Featured projects
 
----
+| Project | Summary | Stack |
+| :-- | :-- | :-- |
+| **HP Omen HyperX Subsystem** | Custom Linux platform driver with ACPI power management hooks, WMI call integration, sysfs controls, and a standalone Rust CLI. Replaces bloated 800MB vendor background suites with a lightweight native module. | Linux Kernel C, DKMS, ACPI/WMI, Rust |
+| **JioFi 4 (JMR1140) Modem Revival** | Reverse engineering Qualcomm MDM9607 cellular modem architecture. Porting the `lk2nd` secondary bootloader, custom Linux kernel patches, and Realtek Wi-Fi drivers to unlock proprietary mobile router hardware. | Qualcomm MDM9607, C, ARM, Embedded Linux, lk2nd |
+| [**TVS SmartXonnect BLE Telemetry**](https://github.com/aiyu-ayaan/RideLink/issues/4) | Reverse engineered automotive cluster BLE GATT protocol for TVS NTorq. Diagnosed cyclic status packet collisions, LCD segment blanking quirks, and turn-by-turn navigation data pipes over BlueZ DBus. | Kotlin, Jetpack Compose, Python, BlueZ DBus, BLE GATT |
+| [**RAM-TUI**](https://github.com/BlackFeather-git/ram-tui) | Fast, zero-overhead terminal memory monitor and process inspector designed for lightweight Wayland and Hyprland workflows. | Rust, Linux procfs, TUI |
+| [**CareerPath India**](https://github.com/BlackFeather-git/careerpath) | AI-driven guidance platform providing regional and contextual career mapping. | Python, FastAPI, Machine Learning |
 
-## Technical Focus
+## Tech stack
 
-- **Native Interfaces**: Building applications using Jetpack Compose and Flutter with focus on fast launch times, fluid animations, and zero telemetry.
-- **Systems and Automation**: Writing Python for rapid tool development, DBus IPC communication, and local workflow automation. Exploring Rust for compiled native utilities.
-- **Hardware Protocols**: Reverse engineering proprietary BLE GATT services, Linux HID packet structures, and embedded microcontroller firmware.
-- **Interface Design**: Implementing Material Design 3 specifications, custom typography hierarchies, and interaction patterns.
+| Area | Tools & Technologies |
+| :-- | :-- |
+| Systems & Kernel | Linux Kernel Modules (C), DKMS, ACPI, WMI, Embedded Linux (ARM/Qualcomm), Rust |
+| Protocols & Hardware | BLE GATT, BlueZ / DBus, Linux HID, Wireshark, Serial/UART |
+| Logic & Automation | Python, Bash, IPC Scripting, Systemd Services, Asynchronous Tasks |
+| Native UI & Motion | Kotlin, Jetpack Compose, Material Design 3 Architecture, Micro-interactions |
+| Environment & Core | Arch Linux, CachyOS, Hyprland (Wayland), Neovim, Git |
 
----
-
-## Tooling
+## GitHub activity
 
 <p align="center">
-  <img src="https://skillicons.dev/icons?i=arch,linux,bash,git,python,rust,kotlin,mysql,figma&theme=dark" alt="Tooling Stack" />
+  <img src="assets/stats.svg" width="49%" alt="GitHub stats" />
+  <img src="assets/languages.svg" width="49%" alt="Most used languages" />
+</p>
+<p align="center">
+  <img src="assets/activity.svg" width="100%" alt="Contributions over the past year" />
 </p>
 
-```
-OS / Window Manager : Arch Linux, CachyOS, Hyprland (Wayland)
-Scripting & Data    : Python, Bash, SQL (MySQL)
-Systems & Native    : Rust, Kotlin, Jetpack Compose
-Analysis & Tools    : BlueZ / DBus, BLE GATT, Wireshark, Linux HID
-Design & Ergonomics : Material Design 3, Figma, Vector Design
-```
-
----
-
-<div align="center">
-
-```
-Taste dictates the interface. Architecture dictates the longevity.
-```
-
-</div>
+<sub>Stat cards are generated by <code>scripts/generate-stats.mjs</code> and refreshed daily via GitHub Actions.</sub>

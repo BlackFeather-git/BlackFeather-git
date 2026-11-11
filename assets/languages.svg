@@ -1,0 +1,38 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="410" height="211" viewBox="0 0 410 211" role="img" aria-label="Most used languages for BlackFeather-git">
+  <title>Most used languages for BlackFeather-git</title>
+  <style>
+    text { font-family: ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, 'Liberation Mono', monospace; font-size: 13px; }
+    .muted { fill: #7d8590; }
+    .text { fill: #e6edf3; }
+    .small { font-size: 11px; }
+  </style>
+  <clipPath id="frame"><rect width="410" height="211" rx="10"/></clipPath>
+  <g clip-path="url(#frame)">
+    <rect width="410" height="211" fill="#0a0c10"/>
+    <rect width="410" height="36" fill="#12161f"/>
+    <circle cx="18" cy="18" r="5" fill="#ef4444"/>
+    <circle cx="34" cy="18" r="5" fill="#eab308"/>
+    <circle cx="50" cy="18" r="5" fill="#22c55e"/>
+    <text x="68" y="22" class="muted small">ls ./languages --sort=size</text>
+  <clipPath id="bar"><rect x="20" y="54" width="370" height="8" rx="4"/></clipPath>
+  <g clip-path="url(#bar)">
+    <rect x="20.0" y="54" width="333.3" height="8" fill="#dea584"/>
+    <rect x="355.3" y="54" width="13.5" height="8" fill="#e34c26"/>
+    <rect x="370.7" y="54" width="10.1" height="8" fill="#89e051"/>
+    <rect x="382.8" y="54" width="5.2" height="8" fill="#012456"/>
+  </g>
+  <circle cx="25" cy="89.5" r="5" fill="#dea584"/>
+  <text x="38" y="94" class="text">Rust</text>
+  <text x="189" y="94" class="muted" text-anchor="end">90.6%</text>
+  <circle cx="210" cy="89.5" r="5" fill="#e34c26"/>
+  <text x="223" y="94" class="text">HTML</text>
+  <text x="374" y="94" class="muted" text-anchor="end">4.2%</text>
+  <circle cx="25" cy="119.5" r="5" fill="#89e051"/>
+  <text x="38" y="124" class="text">Shell</text>
+  <text x="189" y="124" class="muted" text-anchor="end">3.3%</text>
+  <circle cx="210" cy="119.5" r="5" fill="#012456"/>
+  <text x="223" y="124" class="text">PowerShell</text>
+  <text x="374" y="124" class="muted" text-anchor="end">1.9%</text>
+  </g>
+  <rect width="410" height="211" rx="10" fill="none" stroke="#242b35" stroke-width="1"/>
+</svg>
