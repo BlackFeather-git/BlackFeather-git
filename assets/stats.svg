@@ -25,10 +25,10 @@
   <text x="390" y="112" class="text" text-anchor="end" font-weight="600">1</text>
   <text x="20" y="137" class="muted">issues</text>
   <line x1="76.8" y1="133" x2="372.2" y2="133" stroke="#30363d" stroke-dasharray="1 5" stroke-linecap="round"/>
-  <text x="390" y="137" class="text" text-anchor="end" font-weight="600">2</text>
+  <text x="390" y="137" class="text" text-anchor="end" font-weight="600">3</text>
   <text x="20" y="162" class="muted">repositories</text>
   <line x1="123.6" y1="158" x2="372.2" y2="158" stroke="#30363d" stroke-dasharray="1 5" stroke-linecap="round"/>
-  <text x="390" y="162" class="text" text-anchor="end" font-weight="600">5</text>
+  <text x="390" y="162" class="text" text-anchor="end" font-weight="600">6</text>
   <text x="20" y="187" class="muted">followers</text>
   <line x1="100.2" y1="183" x2="372.2" y2="183" stroke="#30363d" stroke-dasharray="1 5" stroke-linecap="round"/>
   <text x="390" y="187" class="text" text-anchor="end" font-weight="600">0</text>
