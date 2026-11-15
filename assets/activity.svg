@@ -56,8 +56,8 @@
   <rect x="595.6" y="138.0" width="11.1" height="2.0" rx="2" fill="#30363d"><title>0 contributions</title></rect>
   <rect x="610.7" y="138.0" width="11.1" height="2.0" rx="2" fill="#30363d"><title>0 contributions</title></rect>
   <rect x="625.8" y="138.0" width="11.1" height="2.0" rx="2" fill="#30363d"><title>0 contributions</title></rect>
-  <rect x="640.9" y="138.0" width="11.1" height="2.0" rx="2" fill="#30363d"><title>0 contributions</title></rect>
-  <rect x="656.0" y="96.8" width="11.1" height="43.2" rx="2" fill="#38bdf8"><title>6 contributions</title></rect>
+  <rect x="640.9" y="96.8" width="11.1" height="43.2" rx="2" fill="#38bdf8"><title>6 contributions</title></rect>
+  <rect x="656.0" y="138.0" width="11.1" height="2.0" rx="2" fill="#30363d"><title>0 contributions</title></rect>
   <rect x="671.1" y="138.0" width="11.1" height="2.0" rx="2" fill="#30363d"><title>0 contributions</title></rect>
   <rect x="686.2" y="138.0" width="11.1" height="2.0" rx="2" fill="#30363d"><title>0 contributions</title></rect>
   <rect x="701.2" y="138.0" width="11.1" height="2.0" rx="2" fill="#30363d"><title>0 contributions</title></rect>
@@ -65,9 +65,9 @@
   <rect x="731.4" y="138.0" width="11.1" height="2.0" rx="2" fill="#30363d"><title>0 contributions</title></rect>
   <rect x="746.5" y="138.0" width="11.1" height="2.0" rx="2" fill="#30363d"><title>0 contributions</title></rect>
   <rect x="761.6" y="138.0" width="11.1" height="2.0" rx="2" fill="#30363d"><title>0 contributions</title></rect>
-  <rect x="776.7" y="138.0" width="11.1" height="2.0" rx="2" fill="#30363d"><title>0 contributions</title></rect>
-  <rect x="791.8" y="125.6" width="11.1" height="14.4" rx="2" fill="#38bdf8"><title>2 contributions</title></rect>
-  <rect x="806.9" y="68.0" width="11.1" height="72.0" rx="2" fill="#38bdf8"><title>10 contributions</title></rect>
+  <rect x="776.7" y="125.6" width="11.1" height="14.4" rx="2" fill="#38bdf8"><title>2 contributions</title></rect>
+  <rect x="791.8" y="68.0" width="11.1" height="72.0" rx="2" fill="#38bdf8"><title>10 contributions</title></rect>
+  <rect x="806.9" y="138.0" width="11.1" height="2.0" rx="2" fill="#30363d"><title>0 contributions</title></rect>
   <rect x="20" y="144" width="800" height="1" fill="#242b35"/>
   <text x="20" y="159" class="muted small">52 weeks ago</text>
   <text x="820" y="159" class="muted small" text-anchor="end">this week</text>
