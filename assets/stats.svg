@@ -31,7 +31,7 @@
   <text x="390" y="162" class="text" text-anchor="end" font-weight="600">5</text>
   <text x="20" y="187" class="muted">followers</text>
   <line x1="100.2" y1="183" x2="372.2" y2="183" stroke="#30363d" stroke-dasharray="1 5" stroke-linecap="round"/>
-  <text x="390" y="187" class="text" text-anchor="end" font-weight="600">0</text>
+  <text x="390" y="187" class="text" text-anchor="end" font-weight="600">1</text>
   </g>
   <rect width="410" height="211" rx="10" fill="none" stroke="#242b35" stroke-width="1"/>
 </svg>
